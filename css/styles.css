@@ -12,6 +12,10 @@ ul, ol {
     padding: 0;
     margin: 0;
 }
+img {
+    display: block;
+}
+
 /*===== Header =====*/
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -109,6 +113,9 @@ cursor: pointer;
     background-color: #404BBF;
 }
 /*===== Body section 2 =====*/
+.menu_sec_two {
+    visibility: hidden;
+}
 .sec_two {
     padding: 120px 0;
 }
