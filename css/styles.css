@@ -109,12 +109,23 @@ cursor: pointer;
     background-color: #404BBF;
 }
 /*===== Body section 2 =====*/
+.sec_two {
+    padding: 120px 0;
+}
+.ul_sec_two {
+    display: flex;
+    gap: 24px;
+}
+.list_sec_two {
+    width: calc((100% - 72px) / 4);
+}
 .title_sec_two {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .parag_sec_two {
     line-height: 1.5;
@@ -123,20 +134,29 @@ cursor: pointer;
 /*===== Body section 3 =====*/
 .sec_three {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .title_sec_three {
+    /*background-color: #FFFFFF;*/
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
-.title_sec_three {
-    background-color: #FFFFFF;
+.ul_sec_three {
+    display: flex;
+    gap: 24px;
 }
 .list_sec_three {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.names_sec_three {
+    padding: 32px 0;
 }
 .human_sec_three {
     font-weight: 500;
@@ -144,13 +164,34 @@ cursor: pointer;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .parag_sec_three {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 /*===== Section 4 =====*/
+.sec_four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.ul_sec_four {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.list_sec_four {
+    width: calc((100% - 48px) / 3);
+}
+.container_names {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+}
 .title_sec_four {
     font-weight: 700;
     font-size: 36px;
@@ -159,6 +200,7 @@ cursor: pointer;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .sec_four_portfolio {
     font-weight: 500;;
@@ -166,6 +208,7 @@ cursor: pointer;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .sec_four_par {
     font-size: 16px;
@@ -177,6 +220,7 @@ cursor: pointer;
 /* Footer */
 footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .footer_logo {
     font-family: Raleway, sans-serif ;
@@ -186,6 +230,8 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo_part_footer {
     color: #f4f4fd;
@@ -194,4 +240,5 @@ footer {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
