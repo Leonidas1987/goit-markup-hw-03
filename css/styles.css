@@ -81,6 +81,7 @@ ul, ol {
 /*===== Body section 1 =====*/
 .sec_one {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .title_sec_one {
     font-size: 56px;
@@ -88,6 +89,7 @@ ul, ol {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 .button_sec_one {
 background-color: #4D5AE5;
@@ -95,6 +97,12 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
+cursor: pointer;
+display: block;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
 cursor: pointer;
 }
 .button_sec_one:hover, .button_sec_one:focus {
@@ -144,6 +152,7 @@ cursor: pointer;
 }
 /*===== Section 4 =====*/
 .title_sec_four {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
